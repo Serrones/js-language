@@ -19,3 +19,11 @@ console.log(destinyList);
 destinyList.push('Curitiba');
 
 console.log(destinyList);
+
+// Remove element
+destinyList.splice(1, 1);
+
+console.log(destinyList);
+
+// Print only one element
+console.log(destinyList[1]);
